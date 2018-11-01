@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <style type="text/css">
+        table.ms-formtable {
+            display: none;
+        }
+    </style>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.min.js"></script>
+    <script type="text/javascript" src="http://sydapp117lv/NgSpFormTemplate/ngSpFormTemplate/ngSpFormTemplate.js"></script>
+</head>
+
+<body>
+
+    <!-- Customizable Part -->
+    <table ng-app="myApp" ng-spft>
+        <tr>
+            <td>Title</td>
+        </tr>
+        <tr>
+            <td class="ng-spft-cellholder" data-spInternalName="Title"></td>
+        </tr>
+        <tr>
+            <td>Contact Number</td>
+        </tr>
+        <tr>
+            <td class="ng-spft-cellholder" data-spInternalName="ContactNumber"></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+        </tr>
+        <tr>
+            <td class="ng-spft-cellholder" data-spInternalName="Description"></td>
+        </tr>
+        <tr>
+            <td>Country</td>
+        </tr>
+        <tr>
+            <td class="ng-spft-cellholder" data-spInternalName="Country"></td>
+        </tr>
+    </table>
+
+    <script type="text/javascript">
+        var app = angular.module("myApp", ['NgSpFormTemplate']);
+    </script>
+
+</body>
+
+</html>
